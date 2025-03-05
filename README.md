@@ -20,8 +20,6 @@
 
 <p>Update <strong>vite.config.js</strong>, <strong>resources/app.js</strong> and <strong>resources/ssr.js</strong> files to properly handle Vuetify and SSR.</p>
 
-<br><br>
-
 <h3>Development</h3>
 
 <p>Install packages and run development mode:</p>
@@ -30,8 +28,6 @@
 
 <p>Start laravel server:</p>
 <code>php artisan serve</code>
-
-<br><br>
 
 <h3>Production</h3>
 
