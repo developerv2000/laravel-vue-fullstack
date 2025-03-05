@@ -31,7 +31,7 @@
 <p>Start laravel server:</p>
 <code>php artisan serve</code>
 
-<br><br><br>
+<br><br>
 
 <h3>Production</h3>
 
