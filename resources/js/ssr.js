@@ -6,8 +6,7 @@ import { createSSRApp, h } from 'vue';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
 import { createVuetify } from 'vuetify/lib/framework.mjs';
-import { aliases, mdi } from 'vuetify/iconsets/mdi';
-import '@mdi/font/css/materialdesignicons.css';
+import { aliases, mdi } from 'vuetify/iconsets/mdi-svg'
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
 

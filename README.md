@@ -14,9 +14,9 @@
 <p>Select Inertia SSR as optinal feature!</p>
 
 <p></p>
-<p>Install Vuetify and Material desingn icons:</p>
+<p>Install Vuetify and Material desingn icons (@mdi/js for perfomance):</p>
 <code>npm install vuetify</code>
-<code>npm install @mdi/font</code>
+<code>npm install @mdi/js</code>
 
 <p></p>
 <p>Install vite-plugin-vuetify</p>
@@ -38,7 +38,7 @@
 <h3>Production</h3>
 
 <p>Install packages and build assets:</p>
-<code>npm ci --production</code>
+<code>npm install</code>
 <code>npm run build</code>
 
 <p></p>
