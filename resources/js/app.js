@@ -8,19 +8,21 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
 import { createVuetify } from 'vuetify/lib/framework.mjs';
 import { aliases, mdi } from 'vuetify/iconsets/mdi-svg'
-import * as components from 'vuetify/components';
-import * as directives from 'vuetify/directives';
+import { ru } from 'vuetify/locale';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
 const vuetify = createVuetify({
+    locale: {
+        locale: 'ru',
+        fallback: 'en',
+        messages: { ru },
+    },
     icons: {
         defaultSet: 'mdi',
         aliases,
         sets: { mdi },
     },
-    components,
-    directives,
     ssr: true,
 });
 
