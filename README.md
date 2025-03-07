@@ -19,6 +19,10 @@
 <code>npm install @mdi/js</code>
 
 <p></p>
+<p>Install SASS and create resources/css/main.scss file to modify Vuetify’s internal variables (optional):</p>
+<code>npm install -D sass-loader sass</code>
+
+<p></p>
 <p>Install vite-plugin-vuetify</p>
 <code>npm install vite-plugin-vuetify</code>
 

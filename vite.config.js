@@ -19,12 +19,7 @@ export default defineConfig({
                 },
             },
         }),
-        vuetify({
-            // Vuetify-specific options
-            // styles: {
-            //     configFile: 'resources/css/vuetify.scss', // Define custom Vuetify styles if needed
-            // },
-        }),
+        vuetify(),
     ],
     resolve: {
         alias: {
@@ -36,13 +31,5 @@ export default defineConfig({
     },
     optimizeDeps: {
         include: ['vuetify'], // Ensure Vuetify is pre-bundled in development
-    },
-    css: {
-        preprocessorOptions: {
-            // No need for custom `additionalData`, let Vuetify handle its styles automatically
-            scss: {
-                additionalData: '@import "~vuetify/lib/styles/main.sass";',
-            },
-        },
     },
 });
