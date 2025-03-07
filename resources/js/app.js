@@ -1,3 +1,4 @@
+import 'vuetify/styles'
 import '../css/app.css';
 import './bootstrap';
 
